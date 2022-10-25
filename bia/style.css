@@ -1,7 +1,34 @@
-.footer{
-    background-color: black
-};
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.rodape{
-    text-align: center
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+   
+}
+
+footer img {
+    width: 250px;
+}
+
+nav{
+color: #ffffff;
+
+}
+
+nav img1{
+margin-left: 10px;
 }
