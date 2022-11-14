@@ -23,16 +23,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Início</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Sobre</a>
+                    <a class="nav-link text-white" href="#sobre">Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Áreas de atuação</a>
+                    <a class="nav-link text-white" href="#areas">Áreas de atuação</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contatos</a>
+                    <a class="nav-link text-white" href="#contatos">Contatos</a>
                   </li>
                 </ul>
               </div>
@@ -62,7 +62,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-         <div>   <h1 class="titulo">Sobre Nós</h1>
+         <div>   <h1 id="sobre" class="titulo">Sobre Nós</h1>
             <p class="paragrafo">Somos um escritório de advocacia focado na prestação de serviços para auxiliar na necessidade de nossos clientes, sempre buscando as melhores formas de solucionar as demandas.</p>
                 <p class="paragrafo">Contamos com a atuação especializada de nossos advogados e associados nas demandas previdenciárias e realizamos a consultoria para melhor auxiliar nossos clientes em suas dúvidas junto ao INSS e outros Órgãos Públicos.
                 </p>
@@ -84,54 +84,58 @@
              <img src="" alt="">
             </div>
 
+     <div>
+          <h1 id="areas" class="titulo">Áreas de atuação</h1>
+            <section class="card">
+              <h3 class="tio">Consumidor</h3>
+              <div class="icon">
+                <img src="consumidor.png" alt="Shop here.">
+              </div>
+            </section>
+
+            <section class="card">
+              <h3 class="tio">Civil</h3>
+              <div class="icon">
+                <img src="civil.png" alt="Shop here.">
+              </div>
+            </section>
+
+            <section class="card">
+              <h3 class="tio">Trabalhista</h3>
+              <div class="icon">
+                <img src="trabalhista.png" alt="Shop here.">
+              </div>
+            </section>
+
+            <section class="card">
+              <h3 class="tio">Família</h3>
+              <div class="icon">
+                <img src="familia.png" alt="Shop here.">
+              </div>
+            </section>
+
+            <section class="card">
+              <h3 class="tio">Previdenciário</h3>
+              <div class="icon">
+                <img src="previdenciario.png" alt="Shop here.">
+              </div>
+            </section>
+
+
         <div>
-            <h1 class="titulo">Áreas de atuação</h1>
-            <div class="card" style="width: 18rem;">
-              <img src="consumidor.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Consumidor</div>
-            </div>
-           
-            <div class="card" style="width: 18rem;">
-              <img src="civil.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Cívil</div>
-            </div>
-           
-            <div class="card" style="width: 18rem;">
-              <img src="trabalhista.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">trabalhista</div>
-            </div>
-          
-            <div class="card" style="width: 18rem;">
-              <img src="familia.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Família</div>
-            </div>
-            
-            <div class="card" style="width: 18rem;">
-              <img src="previdenciario.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Previdenciário</div>
-            </div>
-           
-
-
-        <div class="contato">
-            <h1 class="titulo">Contatos</h1>
-            <p> <h3 class="tt">Telefone:</h3>
+            <h1 id="contatos" class="titulo">Contatos</h1>
+            <section class="titulo-letrinhas">  <h3 class="titulo-destaque">Telefone:</h3>
                 (21) 96851-8341 | (21) 99371-4874 <br><br>
               
-                <h3 class="tt">Endereço:</h3>
+                <h3 class="titulo-destaque">Endereço:</h3>
                 Rua Maria Freitas,42,sala 506,<br>Madureira,Rio de Janeiro<br><br>
                 
-               <h3 class="tt">E-mail:</h3>
+               <h3 class="titulo-destaque">E-mail:</h3>
                 matias.marins.adv@gmail.com
-            </p>
+              </section> 
         </div>
         
-        <form action="#" method="post">
+        <form class="formulario" action="#" method="post">
             <input type="text" placeholder="Nome">
             <input type="text" placeholder="Sobrenome">
             <br>
@@ -140,7 +144,7 @@
             <br>
             <br>
             <textarea name="msg" id="" cols="45" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
-            <button>Enviar</button>
+            <button class="butao">Enviar</button>
         </form>
         
     </main>

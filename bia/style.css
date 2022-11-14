@@ -75,14 +75,36 @@ body{
     margin-left: 700px;
 }
 
-.tt{
+.titulo-letrinhas{
+    font-family:'IM Fell Great Primer SC', serif;
+    font-size:25px;
+    margin-left:150px;
+}
+
+.titulo-destaque{
     font-family:'Inknut Antiqua', serif;
     font-size:25px;
     margin-left: 100px;
 }
 
-.contato{
-    margin-left: 200px;
-    font-family:'IM Fell Great Primer SC', serif;
-    font-size: 25px;
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    width:210px;
+    justify-content: space-around;
+}
+
+.formulario{
+    font-family:'Inknut Antiqua', serif;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top:45px;
+}
+
+.butao{
+    background-color:#A51313 ;
+    border-radius: 35px;
 }
