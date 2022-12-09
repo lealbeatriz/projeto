@@ -92,13 +92,6 @@ body{
     margin-left: 100px;
 }
 
-.formulario{
-    font-family:'Inknut Antiqua', serif;
-    font-size: 20px;
-    margin-left: 600px;
-    margin-top:-16em;
-}
-
 .fund{
-    background-image: url(fundo-cont2.png);
+  text-align: center;
 }
